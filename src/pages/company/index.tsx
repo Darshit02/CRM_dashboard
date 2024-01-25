@@ -12,7 +12,7 @@ import React from "react";
 const CompanyListPage = () => {
   const { tableProps, filters } = useTable({
     resource: "companies",
-    onSearch : (values) => {
+    onSearch : (values : any) => {
       return [
         {
           field: 'name',
