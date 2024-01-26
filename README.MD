@@ -1,49 +1,70 @@
-# real-coats-hug
-
-<div align="center" style="margin: 30px;">
-    <a href="https://refine.dev">
-    <img alt="refine logo" src="https://refine.ams3.cdn.digitaloceanspaces.com/readme/refine-readme-banner.png">
-    </a>
-</div>
 <br/>
 
-This [Refine](https://github.com/refinedev/refine) project was generated with [create refine-app](https://github.com/refinedev/refine/tree/master/packages/create-refine-app).
+## <a name="introduction">🤖 Introduction</a>
 
-## Getting Started
+React-based CRM dashboard featuring comprehensive authentication, antd charts, sales management, and a fully operational kanban board with live updates for real-time actions across all devices.
 
-A React Framework for building internal tools, admin panels, dashboards & B2B apps with unmatched flexibility ✨
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-Refine's hooks and components simplifies the development process and eliminates the repetitive tasks by providing industry-standard solutions for crucial aspects of a project, including authentication, access control, routing, networking, state management, and i18n.
+- React.js
+- TypeScript
+- GraphQL
+- Ant Design
+- Refine
+- Codegen
+- Vite
 
-## Available Scripts
+## <a name="features">🔋 Features</a>
 
-### Running the development server.
+👉 **Authentication**: Seamless onboarding with secure login and signup functionalities; robust password recovery ensures a smooth authentication experience.
+
+👉 **Authorization**: Granular access control regulates user actions, maintaining data security and user permissions.
+
+👉 **Home Page**: Dynamic home page showcases interactive charts for key metrics; real-time updates on activities, upcoming events, and a deals chart for business insights.
+
+👉 **Companies Page**: Complete CRUD for company management and sales processes; detailed profiles with add/edit functions, associated contacts/leads, pagination, and field-specific search.
+
+👉 **Kanban Board**: Collaborative board with real-time task updates; customization options include due dates, markdown descriptions, and multi-assignees, dynamically shifting tasks across dashboards.
+
+👉 **Account Settings**: Personalized user account settings for profile management; streamlined configuration options for a tailored application experience.
+
+👉 **Responsive**: Full responsiveness across devices for consistent user experience; fluid design adapts seamlessly to various screen sizes, ensuring accessibility.
+
+and many more, including code architecture and reusability 
+
+## <a name="quick-start">🤸 Quick Start</a>
+
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+**Cloning the Repository**
 
 ```bash
-    npm run dev
+git clone https://github.com/adrianhajdin/refine_dashboard.git
+cd refine_dashboard
 ```
 
-### Building for production.
+**Installation**
+
+Install the project dependencies using npm:
 
 ```bash
-    npm run build
+npm install
 ```
 
-### Running the production server.
+
+**Running the Project**
 
 ```bash
-    npm run start
+npm run dev
 ```
 
-## Learn More
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
 
-To learn more about **Refine**, please check out the [Documentation](https://refine.dev/docs)
-
-- **NestJS Query Data Provider** [Docs](https://refine.dev/docs/core/providers/data-provider/#overview)
-- **Ant Design** [Docs](https://refine.dev/docs/ui-frameworks/antd/tutorial/)
-- **React Router** [Docs](https://refine.dev/docs/core/providers/router-provider/)
-- **Custom Auth Provider** [Docs](https://refine.dev/docs/core/providers/auth-provider/)
-
-## License
-
-MIT
