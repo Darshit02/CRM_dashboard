@@ -1,10 +1,10 @@
 <br/>
 
-## <a name="introduction">🤖 Introduction</a>
+## <a name="introduction">Introduction</a>
 
 React-based CRM dashboard featuring comprehensive authentication, antd charts, sales management, and a fully operational kanban board with live updates for real-time actions across all devices.
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## <a name="tech-stack">Tech Stack</a>
 
 - React.js
 - TypeScript
@@ -14,7 +14,7 @@ React-based CRM dashboard featuring comprehensive authentication, antd charts, s
 - Codegen
 - Vite
 
-## <a name="features">🔋 Features</a>
+## <a name="features">Features</a>
 
 👉 **Authentication**: Seamless onboarding with secure login and signup functionalities; robust password recovery ensures a smooth authentication experience.
 
@@ -32,7 +32,7 @@ React-based CRM dashboard featuring comprehensive authentication, antd charts, s
 
 and many more, including code architecture and reusability 
 
-## <a name="quick-start">🤸 Quick Start</a>
+## <a name="quick-start">Quick Start</a>
 
 Follow these steps to set up the project locally on your machine.
 
@@ -47,7 +47,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/refine_dashboard.git
+git clone https://github.com/Darshit02/CRM_dashboard
 cd refine_dashboard
 ```
 
