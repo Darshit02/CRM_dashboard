@@ -5,3 +5,4 @@ export * from './login';
 export * from './register';
 export * from './forgotPassword';
 export * from './company'
+export * from './company/create'

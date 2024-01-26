@@ -9,7 +9,7 @@ import { getDefaultFilter, useGo } from "@refinedev/core";
 import { Input, Space, Table } from "antd";
 import React from "react";
 
-const CompanyListPage = () => {
+const CompanyListPage = ({children} : React.PropsWithChildren) => {
   const { tableProps, filters } = useTable({
     resource: "companies",
     onSearch : (values : any) => {
@@ -46,6 +46,7 @@ const CompanyListPage = () => {
   });
   const go = useGo();
   return (
+    <div>
     <List
       breadcrumb={true}
       headerButtons={() => (
@@ -113,6 +114,8 @@ const CompanyListPage = () => {
         />
       </Table>
     </List>
+    {children}
+    </div>
   );
 };
 
